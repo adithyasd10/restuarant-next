@@ -6,17 +6,17 @@ const data = [
   {
     id: 1,
     title: "Hot, Crispy & Fresh — Every Single Bite!",
-    image: "/slide1.png",
+    image: "/slide4.jpg",
   },
   {
     id: 2,
     title: "From Our Oven to Your Doorstep — Anywhere in NY",
-    image: "/slide2.png",
+    image: "/slide3.jpg",
   },
   {
     id: 3,
     title: "Made to Share, Perfect for Family Moments",
-    image: "/slide3.jpg",
+    image: "/slide7.jpg",
   },
 ];
 
