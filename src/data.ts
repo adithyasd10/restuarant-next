@@ -209,7 +209,6 @@ export const singleProduct: Product = {
 };
 
 
-
 type Menu = {
   id: number;
   slug: string;
@@ -223,25 +222,25 @@ export const menu: Menu = [
   {
     id: 1,
     slug: "pastas",
-    title: "Rustic Italian Pastas",
-    desc: "Enjoy handcrafted Italian pasta dishes made with passion and authentic flavors.",
+    title: "Italian Pastas",
+    desc: "Savor silky pasta tossed in rich sauces, fresh herbs, and authentic Italian flavors.",
     img: "/temporary/m1.png",
-    color: "white",
+    color: "red-400-500",
   },
   {
     id: 2,
     slug: "burgers",
-    title: "Signature Burgers",
-    desc: "Satisfy your cravings with our juicy patties, bold seasonings, and gourmet toppings.",
+    title: "Craft Burgers",
+    desc: "Juicy, flame-grilled burgers stacked high with gourmet toppings and bold seasonings.",
     img: "/temporary/m2.png",
-    color: "black",
+    color: "red-600",
   },
   {
     id: 3,
     slug: "pizzas",
     title: "Stone-Fired Pizzas",
-    desc: "Dive into cheesy heaven with irresistible slices and delicious toppings made to perfection.",
+    desc: "Crispy crusts, bubbling cheese, and fresh toppings baked to perfection in our stone oven.",
     img: "/temporary/m3.png",
-    color: "white",
+    color: "red-300",
   },
 ];
