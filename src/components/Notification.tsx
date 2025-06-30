@@ -1,11 +1,24 @@
-import React from 'react'
+import React from 'react';
 
 const Notification = () => {
   return (
-    <div className="h-10 bg-red-400 text-white px-4 flex justify-center items-center text-center text-sm md:text-base cursor-pointer">
-      Free delivery for all orders over $50.order your food now!
+    <div
+      className="
+        h-12 
+        bg-gradient-to-r from-red-400 via-red-500 to-red-700 
+        text-white 
+        px-4 
+        flex justify-center items-center text-center 
+        text-sm md:text-base 
+        font-medium 
+        cursor-pointer 
+        hover:brightness-110 
+        transition-all duration-300
+      "
+    >
+      🎉 Enjoy FREE delivery on orders over $50 — Treat yourself today!
     </div>
-  )
-}
+  );
+};
 
-export default Notification
+export default Notification;
