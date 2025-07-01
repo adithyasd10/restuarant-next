@@ -21,7 +21,7 @@ const Featured = () => {
             )}
             {/* TEXT CONTAINER */}
             <div className=" flex-1 flex flex-col items-center justify-center text-center gap-4">
-              <h1 className="text-2xl font-bold uppercase xl:text-2xl 2xl:text-3xl text-transparent bg-clip-text bg-gradient-to-r from-[#7f1d1d] via-[#991b1b] to-[#b91c1c] transition-all duration-500 hover:from-[#600000] hover:via-[#8b0000] hover:to-[#c53030]">{item.title}</h1>
+              <h1 className="text-2xl font-bold uppercase xl:text-2xl 2xl:text-3xl text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-orange-500 to-yellow-400 transition-all duration-500 hover:from-pink-500 hover:via-red-500 hover:to-orange-400">{item.title}</h1>
               <p className="p-4 2xl:p-8">{item.desc}</p>
               <span className="text-xl font-bold">${item.price}</span>
               <button className="bg-red-500 text-white p-2 rounded-md">
