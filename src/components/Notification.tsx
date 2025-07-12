@@ -5,7 +5,7 @@ const Notification = () => {
     <div
       className="
         h-12 
-        bg-gradient-to-r from-red-400 via-red-500 to-red-700 
+       bg-gradient-to-r from-red-500 to-orange-500
         text-white 
         px-4 
         flex justify-center items-center text-center 
